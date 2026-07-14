@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PONY FEST - Mis 23 años</title>
+
+    <link
+        rel="stylesheet"
+        href="static/estilos.css"
+    >
+</head>
+
+<body>
+
+    <!-- =========================
+         PRIMERA PANTALLA: SOBRE
+    ========================== -->
+
+    <section class="pantalla-inicial">
+
+        <div class="titulo">
+            <h1>PONY FEST</h1>
+            <h1>Mis 23 años</h1>
+        </div>
+
+        <div
+            class="contenedor-sobre"
+            id="contenedorSobre"
+        >
+
+            <div class="sobre-css">
+
+                <div class="tapa-sobre"></div>
+
+                <div class="tarjeta">
+                    <p>Con cariño</p>
+                    <h3>PONY</h3>
+                </div>
+
+                <div class="frente-izquierdo"></div>
+
+                <div class="frente-derecho"></div>
+
+                <div class="frente-abajo"></div>
+
+                <div class="sello">
+                    <span>F</span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <p
+            class="instruccion"
+            id="instruccion"
+        >
+            Toca el sobre para abrir la invitación
+        </p>
+
+    </section>
+
+
+    <!-- =========================
+         SEGUNDA PANTALLA: PORTADA
+    ========================== -->
+
+    <section
+        class="portada"
+        id="portada"
+    >
+
+        <picture class="contenedor-foto-portada">
+
+            <source
+                media="(max-width: 600px)"
+                srcset="static/imagenes/fotoportada.jpeg"
+            >
+
+            <img
+                src="static/imagenes/fotohorizontal.jpeg"
+                alt="Foto de portada"
+                class="foto-portada"
+            >
+
+        </picture>
+
+        <div class="capa-portada"></div>
+
+        <div class="contenido-portada">
+
+            <p class="texto-celebracion">
+                Celebra conmigo
+            </p>
+
+            <h2 class="nombre-portada">
+                PONY FEST
+            </h2>
+
+            <p class="edad-portada">
+                MIS 23 AÑOS
+            </p>
+
+        </div>
+
+        <button
+            class="boton-musica"
+            id="botonMusica"
+            type="button"
+            aria-label="Reproducir o pausar música"
+        >
+            ♫
+        </button>
+
+    </section>
+
+
+    <!-- =========================
+         TERCERA PANTALLA: MENSAJE
+    ========================== -->
+
+    <section
+        class="mensaje-invitacion"
+        id="mensajeInvitacion"
+    >
+
+        <div class="contenido-mensaje">
+
+            <p class="texto-pequeno">
+                Quiero compartir contigo
+            </p>
+
+            <h2>
+                Un día muy especial
+            </h2>
+
+            <div class="separador-mensaje">
+                ✦
+            </div>
+
+            <p class="texto-mensaje">
+                Hay momentos que se disfrutan mucho más
+                cuando estamos acompañados de las personas
+                que queremos.
+            </p>
+
+            <p class="texto-mensaje">
+                Por eso quiero invitarte a celebrar conmigo
+                mis 23 años en una tarde llena de música,
+                diversión y buenos recuerdos.
+            </p>
+
+            <p class="firma">
+                PONY
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         CUARTA PANTALLA: CONTADOR
+    ========================== -->
+
+    <section class="cuenta-regresiva">
+
+        <div class="contenido-contador">
+
+            <p class="contador-subtitulo">
+                Falta muy poco para
+            </p>
+
+            <h2>
+                PONY FEST
+            </h2>
+
+            <p class="fecha-evento">
+                15 de agosto de 2026 · 4:00 p. m.
+            </p>
+
+            <div class="contador">
+
+                <div class="caja-tiempo">
+                    <span id="dias">00</span>
+                    <p>Días</p>
+                </div>
+
+                <div class="caja-tiempo">
+                    <span id="horas">00</span>
+                    <p>Horas</p>
+                </div>
+
+                <div class="caja-tiempo">
+                    <span id="minutos">00</span>
+                    <p>Minutos</p>
+                </div>
+
+                <div class="caja-tiempo">
+                    <span id="segundos">00</span>
+                    <p>Segundos</p>
+                </div>
+
+            </div>
+
+            <p class="mensaje-contador">
+                Desde las 4:00 p. m. en adelante
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         QUINTA PANTALLA: DETALLES
+    ========================== -->
+
+    <section class="informacion-evento">
+
+        <div class="contenido-evento">
+
+            <p class="evento-subtitulo">
+                Todo lo que necesitas saber
+            </p>
+
+            <h2>
+                Detalles del evento
+            </h2>
+
+            <div class="tarjetas-evento">
+
+                <div class="tarjeta-evento">
+
+                    <div class="icono-evento">
+                        📅
+                    </div>
+
+                    <h3>Fecha</h3>
+
+                    <p>
+                        15 de agosto de 2026
+                    </p>
+
+                </div>
+
+
+                <div class="tarjeta-evento">
+
+                    <div class="icono-evento">
+                        🕓
+                    </div>
+
+                    <h3>Hora</h3>
+
+                    <p>
+                        4:00 p. m. en adelante
+                    </p>
+
+                </div>
+
+
+                <div class="tarjeta-evento">
+
+                    <div class="icono-evento">
+                        📍
+                    </div>
+
+                    <h3>Lugar</h3>
+
+                    <p>
+                        Mi Casa
+                    </p>
+
+                    <p class="direccion-evento">
+                        Francisco León de La Barra 43,
+                        Santa Barbara 2A. Sección,
+                        76906 El Pueblito, Qro.
+                    </p>
+
+                    <a
+                        href="https://maps.app.goo.gl/DNKxWdeJxVfgSB248"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="boton-mapa"
+                    >
+                        Ver ubicación
+                    </a>
+
+                </div>
+
+
+                <div class="tarjeta-evento">
+
+                    <div class="icono-evento">
+                        👗
+                    </div>
+
+                    <h3>
+                        Código de vestimenta
+                    </h3>
+
+                    <p>
+                        Blanco y negro
+                    </p>
+
+                    <div class="colores-vestimenta">
+
+                        <span class="color-blanco"></span>
+
+                        <span class="color-negro"></span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SEXTA PANTALLA: GALERÍA
+    ========================== -->
+
+    <section class="seccion-galeria">
+
+        <div class="contenido-galeria">
+
+            <p class="galeria-subtitulo">
+                Algunos recuerdos
+            </p>
+
+            <h2>
+                Galería de fotos
+            </h2>
+
+            <div
+                class="carrusel"
+                id="carrusel"
+            >
+
+                <div class="diapositiva activa">
+
+                    <img
+                        src="static/imagenes/1.jpeg"
+                        alt="Foto 1"
+                    >
+
+                </div>
+
+                <div class="diapositiva">
+
+                    <img
+                        src="static/imagenes/2.jpeg"
+                        alt="Foto 2"
+                    >
+
+                </div>
+
+                <div class="diapositiva">
+
+                    <img
+                        src="static/imagenes/3.jpeg"
+                        alt="Foto 3"
+                    >
+
+                </div>
+
+                <div class="diapositiva">
+
+                    <img
+                        src="static/imagenes/4.jpeg"
+                        alt="Foto 4"
+                    >
+
+                </div>
+
+                <div class="diapositiva">
+
+                    <img
+                        src="static/imagenes/5.jpeg"
+                        alt="Foto 5"
+                    >
+
+                </div>
+
+
+                <button
+                    class="flecha-carrusel flecha-anterior"
+                    id="flechaAnterior"
+                    type="button"
+                    aria-label="Foto anterior"
+                >
+                    ❮
+                </button>
+
+                <button
+                    class="flecha-carrusel flecha-siguiente"
+                    id="flechaSiguiente"
+                    type="button"
+                    aria-label="Foto siguiente"
+                >
+                    ❯
+                </button>
+
+            </div>
+
+
+            <div
+                class="puntos-carrusel"
+                id="puntosCarrusel"
+            >
+
+                <button class="punto activo" data-indice="0" type="button"></button>
+                <button class="punto" data-indice="1" type="button"></button>
+                <button class="punto" data-indice="2" type="button"></button>
+                <button class="punto" data-indice="3" type="button"></button>
+                <button class="punto" data-indice="4" type="button"></button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         PANTALLA FINAL
+    ========================== -->
+
+    <section class="seccion-final">
+
+        <div class="contenido-final">
+
+            <p>
+                Gracias por formar parte
+                de este momento especial
+            </p>
+
+            <h2>
+                Te espero
+            </h2>
+
+            <span>
+                PONY FEST · 23 AÑOS
+            </span>
+
+        </div>
+
+    </section>
+
+
+    <!-- MÚSICA -->
+
+    <audio
+        id="musica"
+        loop
+        preload="auto"
+    >
+
+        <source
+            src="static/musica/chavalitas.mpeg"
+            type="audio/mpeg"
+        >
+
+    </audio>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="static/script.js"></script>
+
+</body>
+
+</html>
